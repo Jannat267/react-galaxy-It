@@ -1,0 +1,9 @@
+.member img{
+    border-radius: 50%;
+}
+.member p{
+    font-weight: 400;
+}
+.member-info strong{
+    color:orange;
+}
