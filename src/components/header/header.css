@@ -1,0 +1,24 @@
+
+.header h1{
+    color: goldenrod;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.39);
+}
+.nav{
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 15px;
+    
+}
+.nav a:hover{
+    background-color:grey;
+    
+}
