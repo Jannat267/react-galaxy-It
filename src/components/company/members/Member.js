@@ -1,9 +1,13 @@
 import React from 'react';
+import { useState } from 'react/cjs/react.development';
 import './member.css';
 
 const Member = (props) => {
     console.log(props);
     const {name,age,email,salary,designation,picture,gender}=props.member;
+    const [double, setDouble] = useState(false);
+
+
     return (
         
           <div className='member col-4 g-2 '>
@@ -17,7 +21,7 @@ const Member = (props) => {
             <strong>Gender :<nbsp/></strong>{gender}</p>
             <p><strong>Salary :</strong>{salary}</p>
             
-            <button className='btn btn-warning' onClick={()=>props.addMember(props.member)} ><i class="fas fa-cart-plus"></i>Add to cart</button>
+            <button className='btn btn-warning' disabled={double} onClick={()=>props.addMember(props.member)} ><i class="fas fa-cart-plus"></i>Add to cart</button>
           </div>
 
            </div>
