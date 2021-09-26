@@ -1,7 +1,10 @@
 import React from 'react';
+// css file import 
 import './header.css';
+// header componant
 const Header = () => {
     return (
+        // jsx for header
         <div className='container text-white bg-dark
         text-center p-4 border rounded mt-4'>
              <div className='header'>
@@ -13,5 +16,5 @@ const Header = () => {
                
             );
 };
-
+// export componant
 export default Header;

@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 function App() {
   return (
     <div className="App">
+      {/* use header and company componants */}
      <Header></Header>
      <Company></Company>
     </div>
