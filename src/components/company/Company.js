@@ -29,7 +29,7 @@ const Company = () => {
             </Member>
             )} 
             </div>
-            <div className='addMember ms-3 mt-4 p-1'>
+            <div className='addMember ms-3 mt-2 p-1'>
                 
             <Add addMember={addMember}></Add> 
             </div>
