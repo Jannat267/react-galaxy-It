@@ -1,4 +1,4 @@
-# Galaxy App React App
+# Galaxy It App React App
 
 This is our live app link: [https://laughing-kepler-161349.netlify.app/]
 
