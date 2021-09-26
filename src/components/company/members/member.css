@@ -7,3 +7,8 @@
 .member-info strong{
     color:orange;
 }
+
+.member{
+    display: grid;
+    grid-template-columns: repeat(3fr);
+}
