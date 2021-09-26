@@ -7,7 +7,7 @@ const Header = () => {
              <div className='header'>
                    <h1><strong className='orange'> Galaxy It</strong></h1>
                    <p><strong>The list of an It Company employer .</strong></p>
-                   <h2>Total Budget : <strong className='orange'> 2 Million</strong></h2>
+                   <h2>Total Budget : <strong className='orange'> $2 Million</strong></h2>
                 </div>
         </div>
                
